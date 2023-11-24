@@ -10,7 +10,7 @@ Welcome to our "Exploring US Home Price Trends" project! We're diving into data 
 - Data Visualization: Matplotlib, Seaborn
 - Version Control: Git, GitHub
 - Jupyter Notebooks for data exploration and analysis
-- 
+  
 # DATA COLLECTED:
 
 The S&P Case-Shiller U.S. Home Prices Index is influenced by various economic and demographic factors. Among the options you've listed, the main key factors that impact the S&P Case-Shiller U.S. Home Prices Index include:
