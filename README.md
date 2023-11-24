@@ -80,6 +80,15 @@ Our Lasso regression model identified certain features with non-zero coefficient
 
 
 
+
+
+
+
+
+
+
+
+
 signifying their impact on predicting home prices.
 Positive coefficients indicate a direct relationship with home prices, while negative coefficients suggest an inverse relationship.
 
