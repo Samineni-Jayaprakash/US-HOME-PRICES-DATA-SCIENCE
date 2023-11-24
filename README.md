@@ -72,18 +72,11 @@ Fold 5: 0.8689
 # BEST FEATURES WITH NON_ZERO_COEFFICIENTS:
 
 Our Lasso regression model identified certain features with non-zero coefficients:
+
+
+
+
 ![T0022](https://github.com/Samineni-Jayaprakash/US-HOME-PRICES-DATA-SCIENCE/assets/144466020/b57b1b2a-65ff-401e-ba63-9d79841a0bd0)
-
-
-
-
-
-
-
-
-
-
-
 
 
 
