@@ -1,8 +1,6 @@
 # US-HOME-PRICES-DATA-SCIENCE
 
 Welcome to our "Exploring US Home Price Trends" project! We're diving into data to figure out what has been influencing home prices in the United States over the last 20 years. Using data and advanced techniques, we want to build a model that helps us understand how different factors relate to home prices. 
-https://github.com/Samineni-Jayaprakash/US-HOME-PRICES-DATA-SCIENCE/blob/main/DATA%20CLEANING%20%26%20PREPROCESSING.LLC.ipynb
-
 
 # THE TOOLS & LIBRARIES USED FOR THIS PROJECT:
 
