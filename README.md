@@ -40,6 +40,8 @@ These key factors play significant roles in influencing the S&P Case-Shiller U.S
 # FEATURE SELECTION:
 In our analysis, we found certain important characteristics that are closely related to the S&P Case-Shiller Home Price Index.   
 ![TOO111](https://github.com/Samineni-Jayaprakash/US-HOME-PRICES-DATA-SCIENCE/assets/144466020/1294d980-79cc-4f61-aacb-9f792efca22b)
+ 
+ 
  When a correlation value is positive, it means there is a direct relationship with home prices, while negative values indicate an inverse relationship. Features with higher absolute correlation values have a bigger impact on home prices.
  
 # MODEL SELECTION & CROSS_VALIDATION:
@@ -71,12 +73,20 @@ Fold 5: 0.8689
 
 Our Lasso regression model identified certain features with non-zero coefficients:
 ![T0022](https://github.com/Samineni-Jayaprakash/US-HOME-PRICES-DATA-SCIENCE/assets/144466020/b57b1b2a-65ff-401e-ba63-9d79841a0bd0)
+
+
+
+
 signifying their impact on predicting home prices.
 Positive coefficients indicate a direct relationship with home prices, while negative coefficients suggest an inverse relationship.
 
 # FEATURES WITH ZERO_COEFFICIENTS :
 
 In our analysis, we found that one features had coefficients of 0.0,
+
+
+
+
 ![TOO33](https://github.com/Samineni-Jayaprakash/US-HOME-PRICES-DATA-SCIENCE/assets/144466020/d493cfbb-1c2a-412e-9e2d-5e3a1f71bb07)
 
 this features  do not have a significant impact on the prediction of home prices in our model.
