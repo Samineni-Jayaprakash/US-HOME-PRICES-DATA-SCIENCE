@@ -40,13 +40,21 @@ These key factors play significant roles in influencing the S&P Case-Shiller U.S
 # FEATURE SELECTION:
 In our analysis, we found certain important characteristics that are closely related to the S&P Case-Shiller Home Price Index.   
 US HOME PRICE INDEX        1.000000
+
 MEDIAN SALES PRICE         0.816619
+
 GROSS DEMOSTRIC PRODUCT    0.741920
+
 POPULATION                 0.536711
+
 HOUSING STARTS             0.418920
+
 MORTGAGE RATE             -0.004776
+
 HOMEOWNERSHIP RATE        -0.145760
+
 UNEMP RATE                -0.519985
+
  When a correlation value is positive, it means there is a direct relationship with home prices, while negative values indicate an inverse relationship. Features with higher absolute correlation values have a bigger impact on home prices.
  
 # MODEL SELECTION & CROSS_VALIDATION:
