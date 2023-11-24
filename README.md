@@ -39,22 +39,7 @@ The S&P Case-Shiller U.S. Home Prices Index is influenced by various economic an
 These key factors play significant roles in influencing the S&P Case-Shiller U.S. Home Prices Index and are important considerations for understanding the dynamics of the housing market.
 # FEATURE SELECTION:
 In our analysis, we found certain important characteristics that are closely related to the S&P Case-Shiller Home Price Index.   
-US HOME PRICE INDEX        1.000000
-
-MEDIAN SALES PRICE         0.816619
-
-GROSS DEMOSTRIC PRODUCT    0.741920
-
-POPULATION                 0.536711
-
-HOUSING STARTS             0.418920
-
-MORTGAGE RATE             -0.004776
-
-HOMEOWNERSHIP RATE        -0.145760
-
-UNEMP RATE                -0.519985
-
+![TOO111](https://github.com/Samineni-Jayaprakash/US-HOME-PRICES-DATA-SCIENCE/assets/144466020/1294d980-79cc-4f61-aacb-9f792efca22b)
  When a correlation value is positive, it means there is a direct relationship with home prices, while negative values indicate an inverse relationship. Features with higher absolute correlation values have a bigger impact on home prices.
  
 # MODEL SELECTION & CROSS_VALIDATION:
@@ -68,11 +53,16 @@ To enhance the Lasso model's performance and determine the best regularization h
 The optimal alpha value was found to be 0.0001 
 During cross-validation, the R-squared scores for different folds were as follows:
 
-Fold 1: 0.9384        
+Fold 1: 0.9384
+
 Fold 2:-0.0281
+
 Fold 3: 0.9457
+
 Fold 4: 0.7558
+
 Fold 5: 0.8689
+
 ![download](https://github.com/Samineni-Jayaprakash/US-HOME-PRICES-DATA-SCIENCE/assets/144466020/7d086f29-66c0-4eaf-9d3b-2672a6a6d41b)
 * mean R_squared:0.6961
 * standard deviation on R_squared:0.3685
@@ -80,23 +70,15 @@ Fold 5: 0.8689
 # BEST FEATURES WITH NON_ZERO_COEFFICIENTS:
 
 Our Lasso regression model identified certain features with non-zero coefficients:
-
- Feature	          Coefficient
-HOMEOWNERSHIP RATE	  0.073474
-HOUSING STARTS	      0.053351
-MEDIAN SALES PRICE	  0.091066
-MORTGAGE RATE	        0.022082
-POPULATION	          0.114393
-UNEMP RATE	         -0.031504
-
+![T0022](https://github.com/Samineni-Jayaprakash/US-HOME-PRICES-DATA-SCIENCE/assets/144466020/b57b1b2a-65ff-401e-ba63-9d79841a0bd0)
 signifying their impact on predicting home prices.
 Positive coefficients indicate a direct relationship with home prices, while negative coefficients suggest an inverse relationship.
 
 # FEATURES WITH ZERO_COEFFICIENTS :
 
 In our analysis, we found that one features had coefficients of 0.0,
-Feature	                  Coefficient
-GROSS DEMOSTRIC PRODUCT	   -0.0
+![TOO33](https://github.com/Samineni-Jayaprakash/US-HOME-PRICES-DATA-SCIENCE/assets/144466020/d493cfbb-1c2a-412e-9e2d-5e3a1f71bb07)
+
 this features  do not have a significant impact on the prediction of home prices in our model.
 
 # SOURCE
