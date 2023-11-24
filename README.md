@@ -99,4 +99,4 @@ In our analysis, we found that one features had coefficients of 0.0,
 this features  do not have a significant impact on the prediction of home prices in our model.
 
 # SOURCE
-https://fred.stlouisfrd.org/
+https://fred.stlouisfed.org/
