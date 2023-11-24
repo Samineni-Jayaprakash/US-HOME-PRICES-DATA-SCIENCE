@@ -2,7 +2,7 @@
 
 Welcome to our "Exploring US Home Price Trends" project! We're diving into data to figure out what has been influencing home prices in the United States over the last 20 years. Using data and advanced techniques, we want to build a model that helps us understand how different factors relate to home prices. 
 
-# The TOOLS & LIBRARIES USED FOR THIS PROJECT:
+# THE TOOLS & LIBRARIES USED FOR THIS PROJECT:
 
 - Programming Languages: Python
 - Data Analysis Libraries: NumPy, pandas, matplotlib, seaborn
