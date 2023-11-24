@@ -2,7 +2,7 @@
 
 Welcome to our "Exploring US Home Price Trends" project! We're diving into data to figure out what has been influencing home prices in the United States over the last 20 years. Using data and advanced techniques, we want to build a model that helps us understand how different factors relate to home prices. 
 
-# The Tools & Libraries used for this Project :
+# The TOOLS & LIBRARIES USED FOR THIS PROJECT:
 
 - Programming Languages: Python
 - Data Analysis Libraries: NumPy, pandas, matplotlib, seaborn
@@ -37,7 +37,7 @@ The S&P Case-Shiller U.S. Home Prices Index is influenced by various economic an
    - Employment and income levels impact the ability and willingness of individuals to purchase homes, thus affecting home prices.
 
 These key factors play significant roles in influencing the S&P Case-Shiller U.S. Home Prices Index and are important considerations for understanding the dynamics of the housing market.
-# Feature Selection:
+# FEATURE SELECTION:
 In our analysis, we found certain important characteristics that are closely related to the S&P Case-Shiller Home Price Index.   
 US HOME PRICE INDEX        1.000000
 MEDIAN SALES PRICE         0.816619
@@ -49,17 +49,19 @@ HOMEOWNERSHIP RATE        -0.145760
 UNEMP RATE                -0.519985
  When a correlation value is positive, it means there is a direct relationship with home prices, while negative values indicate an inverse relationship. Features with higher absolute correlation values have a bigger impact on home prices.
  
-# Model Selection & Cross_Validation:
+# MODEL SELECTION & CROSS_VALIDATION:
+
+we have two best models for US home prices one is linear regression another one is lasso regression 
 
 In this project, we used the Lasso regression model to address significant collinearity within the dataset. The Lasso model employs L1 regularization to handle collinearity, promoting sparsity in feature coefficients.
 
 To enhance the Lasso model's performance and determine the best regularization hyperparameter (alpha), we conducted cross-validation.
 
-The optimal alpha value was found to be 0.0001. 
+The optimal alpha value was found to be 0.0001 
 During cross-validation, the R-squared scores for different folds were as follows:
 
 Fold 1: 0.9384        
-Fold 2: -0.0281
+Fold 2:-0.0281
 Fold 3: 0.9457
 Fold 4: 0.7558
 Fold 5: 0.8689
